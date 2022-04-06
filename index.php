@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="nav-icon" id="dd-icon">
-        <div class="header">
+        <div class="header header-breed">
             <nav>
                <div class="lft-con">
                     <a href="index.php"><img src="images/hotdogs.png" alt="PawImg"></a>
@@ -24,21 +24,19 @@
                </div>  
                 <div class="nav-wlinks" id="coll-nav">
                     <ul>
-                        <li><a class="wide-link" href="index.php">Home</a></li>
-                        <li><a class="wide-link" href="breed.php">Breeds</a></li>
-                        <li><a class="wide-link" href="about.php">About</a></li>
+                        <li><a class="wide-link" id="underline" href="index.php">Home</a></li>
+                        <li><a class="wide-link slct" href="breed.php">Breeds</a></li>
+                        <li><a class="wide-link slct" href="about.php">About</a></li>
                     </ul>
                 </div>    
             </nav>
         </div>
     </div>
-    
     <div class="txt_mid">
         <h1>I WOOF YOU</h1>
         <p>Lets explore all the famous dog breeds to help you decide what breed suits you!</p>
         <a href="breed.php">See all the breeds</a>
     </div>
-
     <footer>
         
     </footer>

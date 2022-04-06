@@ -23,14 +23,56 @@
                </div>  
                 <div class="nav-wlinks" id="coll-nav">
                     <ul>
-                        <li><a class="wide-link" href="index.php">Home</a></li>
-                        <li><a class="wide-link" href="breed.php">Breeds</a></li>
-                        <li><a class="wide-link" href="about.php">About</a></li>
+                        <li><a class="wide-link slct" href="index.php">Home</a></li>
+                        <li><a class="wide-link slct" href="breed.php">Breeds</a></li>
+                        <li><a class="wide-link" id="underline" href="about.php">About</a></li>
                     </ul>
                 </div>    
             </nav>
         </div>
     </div>
+
+    <div class="abt-page">
+        <div id="mr-pogi">
+            <img src="images/gradpic.png" alt="picOfDeveloper">
+        </div>
+        <div class="abt-container">
+            <div class="abt-remarks">
+                <div>
+                    <h1>Hello! I'm Jayson D. Eubra</h1>
+                    <p>Graduated Bachelor of Science in Mathematics Major in Computer Science in Bulacan State University Malolos Bulacan.<br> 
+                        This website<span id="cut">...</span><span id="readMore"> is merely a byproduct of what I've learned so far in web development through online courses. 
+                        <br>This is a responsive Non-Bootstrap Website.</span></p>
+                </div>
+                <div>
+                    <a href="javascript:void(0);" id="btnReadMore" onclick="seeMore()">Read More</a>
+                </div>
+            </div>
+            <div class="soc-acct">
+                <table>
+                    <tr>
+                        <td><i class="fa-solid fa-envelope" id="abt-spc"></i></td>
+                        <td>eubra.jayson223@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-facebook-square" id="abt-spc"></i></td>
+                        <td><a href="https://www.facebook.com/jayson.eubs">www.facebook.com/jayson.eubs</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-github" id="abt-spc"></i></td>
+                        <td><a href="https://github.com/jysnebr">https://github.com/jysnebr</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-linkedin" id="abt-spc"></i></td>
+                        <td><a href="https://www.linkedin.com/in/jayson-eubra-066402234/">https://www.linkedin.com/in/jayson-eubra-066402234//a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
     <script src="boi.js"></script>
 </body>
 </html>

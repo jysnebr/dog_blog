@@ -24,9 +24,9 @@
                </div>  
                 <div class="nav-wlinks" id="coll-nav">
                     <ul>
-                        <li><a class="wide-link" href="index.php">Home</a></li>
-                        <li><a class="wide-link" href="breed.php">Breeds</a></li>
-                        <li><a class="wide-link" href="about.php">About</a></li>
+                        <li><a class="wide-link slct" href="index.php">Home</a></li>
+                        <li><a class="wide-link" id="underline" href="breed.php">Breeds</a></li>
+                        <li><a class="wide-link slct" href="about.php">About</a></li>
                     </ul>
                 </div>    
             </nav>

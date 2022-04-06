@@ -24,3 +24,20 @@ function dropDown(){
         x.className = "nav-wlinks";
     }
 }
+
+function seeMore() {
+  var cut = document.getElementById("cut");
+  var hide = document.getElementById("readMore");
+  var show = document.getElementById("btnReadMore");
+
+  if (hide.style.display === "none") {
+    hide.style.display = "inline";
+    cut.style.display = "none";
+    show.innerHTML = "Show Less"
+
+  } else {
+    hide.style.display = "none";
+    cut.style.display = "inline";
+    show.innerHTML = "Read More"
+  }
+}
